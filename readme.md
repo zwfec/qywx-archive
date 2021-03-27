@@ -8,6 +8,11 @@ com/tencent/wework/Config.java
 ```shell
 ./run.sh
 ```
+运行结果:
+```
+{"msgid":"9175444330025320568_1616827176_external","action":"send","from":"wmPJn2DgAAIK2pNG","tolist":["xxx"],"roomid":"","msgtime":1616827175919,"msgtype":"text","text":{"content":"测试 一次多条信息 和最新私钥"}}
+{"msgid":"2996174893905537049_1616827328_external","action":"send","from":"xxx","tolist":["wmPJn2DgAAIK2pNG"],"roomid":"","msgtime":1616827328894,"msgtype":"text","text":{"content":"嗯嗯，我们越来越好"}} 
+```
 
 ## 常见错误:
 
@@ -64,4 +69,5 @@ public class RSAPks1Utils {
     }
 }
 ```
+
 
